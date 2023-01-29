@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    font-family: 'Alegreya', serif;
+    color: #fff;
+}
+.banner{
+    height: 100vh;
+    width: 100%;
+    background:url(sea.jpg);
+    background-position: top;
+    background-size:cover;
+    /*bacground-attachment: fixed;*/
+    background-repeat:no-repeat;
+
+}
+.banner .navbar{
+    margin-top: %4;
+
+}
+.banner .navbar-brand{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-left: 10%;
+}
+.banner .nav{
+    margin-right: 10%;
+}
+.banner .nav li a{
+    color: #fff;
+    font-size: 1.2em;
+}
+.banner .nav li a:hover{
+    color: #fff;
+    color: #83e1f8;
+}
+.banner .info{
+    margin-top: 15%;
+    transform: translate(-15%);
+}
+.banner .info h1{
+    font-size: 2.5em;
+    font-weight: 500;
+    color: #fff;
+    letter-spacing: 2px;
+}
+.banner .info p{
+    font-size: 2.5em;
+    font-weight: 800;
+    color: #aaa;
+    letter-spacing: 2px;
+    font-family: 'Tangerine', cursive;
+}
+.banner .info a{
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    background:#164855;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 400;
+    transition: 2s;
+    border-radius: 20px;
+}
+.banner .info a:hover{
+    background: #3f5c56;
+
+}
